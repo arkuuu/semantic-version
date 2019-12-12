@@ -1,0 +1,30 @@
+{
+    "name": "arkuuu/semantic-version",
+    "description": "A small tool to handle semantic versions and their comparison",
+    "minimum-stability": "stable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arne Kusserow",
+            "email": "code@arkuuu.de"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3.3",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arkuuu\\SemanticVersion\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arkuuu\\SemanticVersion\\Tests\\": "tests/"
+        }
+    }
+}

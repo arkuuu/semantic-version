@@ -74,7 +74,7 @@ class VersionTest extends \PHPUnit\Framework\TestCase
      * @covers ::getPatch
      * @covers ::getBuild
      */
-    public function testerGetters()
+    public function testGetters()
     {
         $version = new Version('1.0.17');
         self::assertSame(1, $version->getMajor());
@@ -108,7 +108,7 @@ class VersionTest extends \PHPUnit\Framework\TestCase
     /**
      * @covers ::isSame
      */
-    public function testisSame()
+    public function testIsSame()
     {
         self::assertTrue((new Version('1.0.0+43'))->isSame(new Version('1.0.0+43')));
         self::assertFalse((new Version('1.0.0+43'))->isSame(new Version('1.0.0+41')));

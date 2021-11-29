@@ -26,5 +26,8 @@
         "psr-4": {
             "Arkuuu\\SemanticVersion\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }

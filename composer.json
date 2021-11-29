@@ -28,6 +28,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "phpunit": "vendor/bin/phpunit",
+        "phpcs": "vendor/bin/phpcs"
     }
 }
